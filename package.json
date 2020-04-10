@@ -1,0 +1,32 @@
+{
+  "name": "graphql-client-generator",
+  "version": "1.0.0",
+  "description": "A CLI utility for automatically generating web clients for GraphQL APIs",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rb1193/graphql-client-generator.git"
+  },
+  "keywords": [
+    "graphql",
+    "react",
+    "typescript"
+  ],
+  "author": "Ryan Brown <rbrown_1193@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rb1193/graphql-client-generator/issues"
+  },
+  "homepage": "https://github.com/rb1193/graphql-client-generator#readme",
+  "dependencies": {
+    "@types/node": "^13.11.1",
+    "@types/node-fetch": "^2.5.5",
+    "commander": "^5.0.0",
+    "graphql": "^15.0.0",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
